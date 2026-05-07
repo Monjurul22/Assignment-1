@@ -20,7 +20,7 @@ function reverseString(str:string) :string{
 //problem--3
 
 type StringOrNumber =string|number;
-function checkType(input:StringOrNumber) {
+function checkType(input:StringOrNumber):string {
     if (typeof input==="string") {
         return "String"
     }
@@ -28,6 +28,7 @@ function checkType(input:StringOrNumber) {
         return "Number"
     }  
 }
+
 
 
 // problem---4
